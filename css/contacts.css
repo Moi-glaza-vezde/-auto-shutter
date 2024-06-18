@@ -1,0 +1,13 @@
+.contacts {
+  padding-top: 50px;
+  color: white;
+  margin: 0 15px; }
+  .contacts__list {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 30px; }
+    .contacts__list li {
+      font-size: 20px;
+      margin-top: 10px; }
+  .contacts__img {
+    width: 40px; }

@@ -1,0 +1,77 @@
+.result {
+  color: #fff; }
+  @media (max-width: 866px) {
+    .result {
+      padding-top: 30px; } }
+  .result__container {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 1000px;
+    -ms-flex-item-align: center;
+    align-self: center; }
+  .result__car {
+    width: 250px;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 25px 10px 15px 10px;
+    border-radius: 5px;
+    background-color: #3a3a3a7a;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  .result__car:hover {
+    -webkit-box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  .result__img {
+    margin: 0 auto;
+    width: 220px;
+    height: 250px;
+    background-color: #fff; }
+    .result__img img {
+      width: 220px;
+      height: 220px; }
+  .result__price {
+    padding: 20px 0 0 20px;
+    font-size: 25px;
+    font-weight: 600; }
+  .result__model {
+    font-size: 20px;
+    padding: 5px 0 0 10px;
+    font-weight: 300; }
+  .result__year {
+    font-size: 20px;
+    padding: 5px 0 0 10px;
+    font-weight: 300; }
+  .result__btn {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center; }
+    .result__btn button {
+      color: white;
+      -webkit-box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+      box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+      background-color: inherit;
+      width: 140px;
+      height: 35px;
+      border-radius: 5px;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+    .result__btn button:hover {
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+      background-color: #3500d3; }
+
+.result--active {
+  display: block; }

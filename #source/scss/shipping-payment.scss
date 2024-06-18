@@ -1,0 +1,71 @@
+.shipping {
+   padding-top: 30px;
+   max-width: 600px;
+   margin: 0 auto;
+   &__title {
+      color: white;
+      font-size: 35px;
+      font-weight: 500;
+      margin-left: 10px;
+      //text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+   }
+
+   &__box {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-around;
+   }
+
+   &__item {
+      img {
+         width: 60px;
+         border-radius: 15px;
+      }
+      p {
+         color: white;
+         padding-top: 5px;
+         font-size: 18px;
+         text-align: center;
+      }
+   }
+   &__main-text {
+      padding-top: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+      p {
+         margin: 10px;
+         text-align: justify;
+         line-height: 25px;
+         color: white;
+         font-size: 22px;
+         font-weight: 400;
+      }
+   }
+   &__pay-block {
+      margin-left: 10px;
+   }
+   &__pay-title {
+      padding-top: 20px;
+      color: white;
+      font-size: 35px;
+      font-weight: 500;
+   }
+   &__pay-text {
+      color: white;
+      margin-top: 10px;
+      font-size: 20px;
+   }
+   &__pay-info {
+      padding-top: 20px;
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: 600;
+      li {
+         line-height: 20px;
+         padding-top: 10px;
+         padding-left: 10px;
+         font-size: 18px;
+         font-weight: 400;
+      }
+   }
+}

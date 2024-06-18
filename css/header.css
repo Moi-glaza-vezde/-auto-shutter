@@ -1,0 +1,90 @@
+.header {
+  z-index: 24;
+  position: relative; }
+  .header__wrapper {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    @media (max-width: 572px) {
+      .header__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; } }
+  .header__logo {
+    width: 200px; }
+    .header__logo img {
+      width: 100%; }
+  .header__title {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: #3500d3; }
+    @media (max-width: 929px) {
+      .header__title {
+        display: none; } }
+    .header__title h2 {
+      font-size: 25px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff; }
+      @media (max-width: 1158px) {
+        .header__title h2 {
+          font-size: 20px; } }
+      @media (max-width: 978px) {
+        .header__title h2 {
+          font-size: 16px; } }
+    .header__title p {
+      font-size: 0.9722vw;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 10px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff; }
+      @media (max-width: 1158px) {
+        .header__title p {
+          font-size: 14px; } }
+  .header__call-btn {
+    cursor: pointer;
+    width: 140px;
+    height: 30px;
+    background-color: #3500d3;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    border-radius: 5px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+    -webkit-box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff; }
+    @media (max-width: 572px) {
+      .header__call-btn {
+        margin: 20px 0; } }
+    .header__call-btn p {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+      color: white;
+      padding-top: 8px; }
+  .header__phone-number {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: white; }
+    .header__phone-number p {
+      font-size: 20px;
+      letter-spacing: 1px; }
+    .header__phone-number p:last-child {
+      margin-top: 10px; }

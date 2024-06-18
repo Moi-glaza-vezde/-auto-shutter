@@ -1,0 +1,43 @@
+.animatios-strinh {
+   max-width: 100%;
+   background-color: #000;
+   margin: 0 auto;
+   overflow: hidden;
+
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 200%;
+      animation: string-item 15s linear infinite;
+   }
+   &__items {
+      display: flex;
+
+      white-space: nowrap;
+      padding: 10px 0;
+      font-weight: 600;
+      font-size: 20px;
+      align-items: center;
+      color: #fff;
+      text-transform: uppercase;
+
+      width: 100%;
+   }
+   &__square {
+      //display: inline-block;
+      border-radius: 50%;
+      width: 7px;
+      height: 7px;
+      margin: 0 5px;
+      background-color: #fff;
+   }
+}
+
+@keyframes string-item {
+   0% {
+      transform: translateX(0%);
+   }
+   100% {
+      transform: translateX(-50%);
+   }
+}

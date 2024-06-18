@@ -1,0 +1,66 @@
+.footer {
+   margin-top: 50px;
+   padding-bottom: 25px;
+   background-color: #161616;
+   &__wrapper {
+   }
+   &__string {
+      width: 100%;
+      height: 1.5px;
+      background-color: #3500d3;
+   }
+   &__box {
+      @media (max-width: 472px) {
+         flex-direction: column;
+         align-items: center;
+         gap: 30px;
+      }
+      padding-top: 25px;
+      margin: 0 10px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__contacts {
+      img {
+         width: 40px;
+         margin: 0 5px;
+      }
+   }
+
+   &__call-btn {
+      align-self: center;
+
+      button {
+         width: 140px;
+         height: 30px;
+         background-color: #3500d3;
+         align-self: center;
+         border-radius: 5px;
+         color: #ffffff;
+         font-weight: 400;
+         letter-spacing: 2px;
+         background-color: inherit;
+
+         text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px;
+
+         box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff,
+            0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+      }
+   }
+
+   &__addres {
+      color: white;
+
+      align-self: center;
+
+      p {
+         max-width: 375px;
+         min-width: 320px;
+         text-align: center;
+         font-size: 14px;
+         line-height: 20px;
+         //text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px;
+      }
+   }
+}

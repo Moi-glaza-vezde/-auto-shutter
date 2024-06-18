@@ -1,0 +1,27 @@
+.contacts {
+   padding-top: 50px;
+   color: white;
+   margin: 0 15px;
+   &__list {
+      max-width: 700px;
+      margin: 0 auto;
+
+      font-size: 30px;
+
+      li {
+         font-size: 20px;
+         margin-top: 10px;
+      }
+   }
+   &__inst-box {
+      display: flex;
+      p {
+         align-self: center;
+         margin-left: 10px;
+         text-transform: uppercase;
+      }
+   }
+   &__img {
+      width: 40px;
+   }
+}

@@ -1,0 +1,99 @@
+.result {
+   @media (max-width: 866px) {
+      padding-top: 30px;
+   }
+
+   color: #fff;
+   &__container {
+      margin: 0 auto;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1000px;
+
+      align-self: center;
+   }
+
+   &__car {
+      width: 250px;
+      height: 100%;
+      margin-bottom: 10px;
+      padding: 25px 10px 15px 10px;
+      border-radius: 5px;
+      background-color: #3a3a3a7a;
+
+      transition-duration: 0.3s;
+   }
+   &__car:hover {
+      // background-color: #264a817a;
+      box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff,
+         0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+
+      transition-duration: 0.3s;
+   }
+   &__img {
+      position: relative;
+      margin: 0 auto;
+      width: 220px;
+      height: 250px;
+      background-color: #3838f3;
+      // background-color: #3500d3;
+      img {
+         width: 220px;
+         height: 220px;
+      }
+   }
+   &__name {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 30px;
+      font-weight: 500;
+   }
+   &__phone {
+      text-align: end;
+      padding-right: 20px;
+      font-size: 20px;
+   }
+   &__price {
+      padding: 20px 0 0 20px;
+      font-size: 25px;
+      font-weight: 600;
+   }
+   &__model {
+      font-size: 20px;
+      padding: 5px 0 0 10px;
+      font-weight: 300;
+   }
+
+   &__year {
+      font-size: 20px;
+      padding: 5px 0 0 10px;
+      font-weight: 300;
+   }
+   &__btn {
+      padding-top: 20px;
+      padding-bottom: 5px;
+      text-align: center;
+      button {
+         color: white;
+         box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+         background-color: inherit;
+         width: 140px;
+         height: 35px;
+         border-radius: 5px;
+         transition-duration: 0.3s;
+      }
+      button:hover {
+         transition-duration: 0.3s;
+         text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+
+         background-color: #3500d3;
+      }
+   }
+}
+
+.result--active {
+   display: block;
+}

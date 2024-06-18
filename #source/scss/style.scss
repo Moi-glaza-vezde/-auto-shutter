@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import 'nullstylescc.scss';
+@import 'header.scss';
+@import 'nav.scss';
+@import 'slider.scss';
+@import 'btn-burger.scss';
+@import 'catalog.scss';
+@import 'result.scss';
+@import 'back-to-home.scss';
+@import 'animation-string.scss';
+@import 'footer.scss';
+@import 'aboutProducts.scss';
+@import 'aboutCompany.scss';
+@import 'contacts.scss';
+@import 'dealers.scss';
+@import 'form-style.scss';
+@import 'shipping-payment.scss';
+@import 'excellence.scss';
+@import 'gallery.scss';
+@import 'indicators.scss';
+
+html {
+   scroll-behavior: smooth;
+   height: 100%;
+}
+body {
+   background-color: black;
+   height: 100%;
+}
+.wrapper {
+   a {
+      color: inherit;
+   }
+   position: relative;
+   overflow: hidden;
+   font-family: 'Source Sans 3', sans-serif;
+   max-width: 1400px;
+   margin: 0 auto;
+
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.main {
+   //  margin: 0 auto;
+   max-width: 100%;
+   flex: 1 1 auto;
+}
+
+.black-window {
+   display: none;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.77);
+
+   width: 100%;
+   height: 100%;
+   z-index: 23;
+}

@@ -1,0 +1,70 @@
+.excellence {
+   padding-top: 50px;
+   margin: 0 20px;
+   // max-width: 1400px;
+
+   &__title {
+      @media (max-width: 627px) {
+         font-size: 50px;
+      }
+      @media (max-width: 431px) {
+         font-size: 40px;
+      }
+      // text-align: center;
+      color: white;
+      font-size: 60px;
+      font-weight: 600;
+   }
+
+   &__band {
+      @media (max-width: 627px) {
+         max-width: 400px;
+      }
+      @media (max-width: 400px) {
+         max-width: 200px;
+      }
+      margin-top: 5px;
+      // margin-left: 10px;
+      max-width: 500px;
+      height: 2px;
+      background-color: #3500d3;
+   }
+
+   &__box {
+      margin: 0 auto;
+      max-width: 1400px;
+      padding-top: 20px;
+   }
+
+   &__item {
+      max-width: 700px;
+      margin: 0 auto;
+
+      display: flex;
+      margin-top: 30px;
+   }
+
+   &__img {
+      margin-right: 20px;
+      img {
+         @media (max-width: 627px) {
+            width: 60px;
+         }
+         width: 100px;
+      }
+   }
+
+   &__item-text {
+      @media (max-width: 627px) {
+         font-size: 18px;
+      }
+      @media (max-width: 400px) {
+         font-size: 16px;
+      }
+      color: white;
+      font-size: 30px;
+      text-transform: uppercase;
+      align-self: center;
+      font-weight: 300;
+   }
+}

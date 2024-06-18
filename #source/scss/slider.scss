@@ -1,0 +1,183 @@
+.slider {
+   @media (max-width: 578px) {
+      padding: 25px 10px;
+   }
+   position: relative;
+   padding: 50px 10px;
+   max-width: 100%;
+   margin: 0 auto;
+   .slick-arrow {
+      display: none;
+      @media (max-width: 1125px) {
+         top: 40%;
+      }
+      @media (max-width: 578px) {
+         top: 30%;
+      }
+      position: absolute;
+      top: 50%;
+      // z-index: 10;
+      font-size: 0;
+   }
+   // .slick-prev {
+   //    //  display: none;
+
+   //    @media (max-width: 821px) {
+   //       // width: 33px;
+   //       // height: 26px;
+   //       left: 10px;
+   //    }
+   //    @media (max-width: 582px) {
+   //       // width: 23px;
+   //       // height: 20px;
+   //       left: 0px;
+   //    }
+   //    left: 0px;
+   //    background: url('../img/slider/arrowL.png') 0 0 / 100% no-repeat;
+   //    width: 40px;
+   //    height: 81px;
+   //    transition-duration: 0.3s;
+   // }
+   // .slick-prev:hover {
+   //    //  box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+
+   //    transition-duration: 0.3s;
+   //    background-color: #ffffff71;
+   //    border-radius: 4px;
+   // }
+   // .slick-next {
+   //    //display: none;
+
+   //    @media (max-width: 821px) {
+   //       // width: 33px;
+   //       // height: 26px;
+   //       // right: 10px;
+   //    }
+   //    @media (max-width: 582px) {
+   //       // width: 23px;
+   //       // height: 20px;
+   //       right: 0px;
+   //    }
+   //    right: 0px;
+   //    background: url('../img/slider/arrowR.png') 0 0 / 100% no-repeat;
+   //    width: 40px;
+   //    height: 81px;
+   // }
+   // .slick-next:hover {
+   //    //box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+
+   //    transition-duration: 0.3s;
+   //    background-color: #ffffff71;
+   //    border-radius: 4px;
+   // }
+   .slick-dots {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .slick-active {
+         button {
+            box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+         }
+      }
+      button {
+         @media (max-width: 821px) {
+            width: 40px;
+            height: 3px;
+         }
+         @media (max-width: 431px) {
+            width: 30px;
+            height: 2px;
+         }
+         font-size: 0;
+         width: 50px;
+         height: 3px;
+         background: white;
+         border-radius: 5px;
+         margin: 0 10px;
+      }
+   }
+}
+
+.slider__item {
+   position: relative;
+   //filter: brightness(0.8);
+   max-width: 100%;
+   margin: 0 auto;
+
+   img {
+      width: 100%;
+      filter: brightness(0.6);
+   }
+}
+.slider__item-textbox {
+   @media (max-width: 1072px) {
+      top: 65%;
+   }
+   @media (max-width: 612px) {
+      top: 60%;
+   }
+   @media (max-width: 476px) {
+      top: 55%;
+   }
+   border-radius: 5px;
+   padding: 10px;
+   background-color: #3500d34f;
+   //background-color: #030303;
+   position: absolute;
+   top: 70%;
+   left: 5%;
+
+   color: #ffffff;
+   h2 {
+      @media (max-width: 1072px) {
+         font-size: 70px;
+      }
+      @media (max-width: 933px) {
+         font-size: 60px;
+      }
+      @media (max-width: 817px) {
+         font-size: 50px;
+      }
+      @media (max-width: 567px) {
+         font-size: 40px;
+      }
+      @media (max-width: 415px) {
+         font-size: 30px;
+      }
+      @media (max-width: 321px) {
+         font-size: 25px;
+      }
+      font-size: 80px;
+      font-weight: 800;
+   }
+   p {
+      @media (max-width: 1072px) {
+         font-size: 45px;
+      }
+      @media (max-width: 933px) {
+         font-size: 35px;
+      }
+      @media (max-width: 817px) {
+         font-size: 25px;
+      }
+      @media (max-width: 567px) {
+         font-size: 20px;
+      }
+      @media (max-width: 415px) {
+         font-size: 18px;
+      }
+      @media (max-width: 321px) {
+         font-size: 16px;
+      }
+      font-size: 55px;
+      text-transform: uppercase;
+      font-weight: 300;
+   }
+}
+.slick-list {
+   overflow: hidden;
+}
+.slick-track {
+   display: flex;
+}

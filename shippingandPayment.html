@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>Доставка и оплата</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div id="menuBtn" class="header__box-menu-btn">
+               <div class="header__string-menu"></div>
+            </div>
+            <div class="header__wrapper">
+               <div class="header__logo">
+                  <img src="./img/logo/headerLogo.png" alt="" />
+               </div>
+               <div class="header__title">
+                  <h2>Лучшие автошторки для вашего автомобиля</h2>
+                  <p>любые размеры под ваше авто</p>
+               </div>
+
+               <a href="https://wa.me/+77056260606">
+                  <div class="header__call-btn">
+                     <p>сделать заказ</p>
+                  </div>
+               </a>
+               <div class="header__phone-number">
+                  <p>8 (705) 626-06-06</p>
+               </div>
+            </div>
+            <nav class="header__nav">
+               <ul class="header__nav-list">
+                  <a href="index.html"
+                     ><li id="menuItemCatalog" class="header__nav-item">Каталог</li></a
+                  >
+                  <a href="aboutProducts.html"><li class="header__nav-item">О продуктах</li></a>
+                  <a href="aboutCompany.html"> <li class="header__nav-item">О компании</li> </a>
+                  <a href="dealers.html"> <li class="header__nav-item">Диллерам</li></a>
+                  <a href="shippingandPayment.html">
+                     <li class="header__nav-item">Доставка и оплата</li>
+                  </a>
+                  <a href="contacts.html"> <li class="header__nav-item">Контакты</li> </a>
+               </ul>
+               <div class="header__nav-string"></div>
+            </nav>
+         </header>
+
+         <main class="main">
+            <div class="back-to-home">
+               <a href="index.html">
+                  <div class="back-to-home__btn">
+                     <p>на главную</p>
+                     <p>&larr;</p>
+                  </div>
+               </a>
+            </div>
+            <div class="shipping">
+               <form class="order-form" id="orderForm">
+                  <h2 class="form-title">РАСЧИТАТЬ СТОИМОСТЬ ВАШЕГО АВТОМОБИЛЯ</h2>
+                  <input
+                     maxlength="50"
+                     name="name"
+                     value=""
+                     type="text"
+                     class="order-input"
+                     placeholder="Имя, Фамилия"
+                     required />
+
+                  <input
+                     maxlength="50"
+                     name="phone"
+                     value=""
+                     type="text"
+                     class="order-input"
+                     placeholder="Телефон"
+                     data-tel-input
+                     required />
+
+                  <input
+                     maxlength="50"
+                     name="brand"
+                     value=""
+                     type="text"
+                     class="order-input"
+                     placeholder="Ввидите марку автомобиля"
+                     required />
+                  <button type="submit" class="order-btn order-btn--black" id="submitFormBtn">
+                     Рассчитать стоимость
+                  </button>
+               </form>
+               <h2 class="shipping__title">СПОСОБЫ ДОСТАВКИ:</h2>
+               <div class="shipping__box">
+                  <div class="shipping__item">
+                     <img src="./img/icons/sdek.png" alt="" />
+                     <p>СДЕК</p>
+                  </div>
+                  <div class="shipping__item">
+                     <img src="./img/icons/kazpost.png" alt="" />
+                     <p>Kazpost</p>
+                  </div>
+                  <div class="shipping__item">
+                     <img src="./img/icons/inDr.jpg" alt="" />
+                     <p>Indriver</p>
+                  </div>
+                  <div class="shipping__item">
+                     <img src="./img/icons/yandex.png" alt="" />
+                     <p>Яндекс</p>
+                  </div>
+               </div>
+               <div class="shipping__main-text">
+                  <p>
+                     в городе Актау и Алматы вы можете забрать ваши шторки сомовывозом в одном из
+                     наших магазинов. Либо заказать доставку через курьера Яндекс, Indriver.
+                  </p>
+                  <p>
+                     В другие города Казахстана Мы можем отправить через логистические компаний
+                     СДЕК, KazPost. А в ближайщие города через inDriver.
+                  </p>
+               </div>
+               <div class="shipping__pay-block">
+                  <h2 class="shipping__pay-title">СПОСОБЫ ОПЛАТЫ:</h2>
+                  <p class="shipping__pay-text">Kaspi QR. Удаленная оплата в “Kaspi Pay”</p>
+                  <p class="shipping__pay-text">
+                     После оформления заказа Мы вам отправим счет удаленно на kaspi.kz
+                  </p>
+                  <ul class="shipping__pay-info">
+                     КАК КУПИТЬ АВТОШТОРКИ LUTOR?
+                     <li>
+                        1. Заполните форму с контактной информацией <br />( желательно напишите
+                        WhatsApp номер)
+                     </li>
+                     <li>2. Напишите марку и модель автомобиля</li>
+                     <li>3. Наш менеджер свяжется с Вами.</li>
+                  </ul>
+               </div>
+            </div>
+         </main>
+         <footer id="footer" class="footer">
+            <div class="animatios-strinh">
+               <div class="animatios-strinh__wrapper">
+                  <div class="animatios-strinh__items">
+                     lutor
+                     <div class="animatios-strinh__square"></div>
+                     авто шторки
+                     <div class="animatios-strinh__square"></div>
+                     на любые марки и модели авто
+                     <div class="animatios-strinh__square"></div>
+                     toyta lexus mercedesBenz
+                     <div class="animatios-strinh__square"></div>
+                     bmw audi kia hyundai chevralet
+                     <div class="animatios-strinh__square"></div>
+                     honda mitsubishi nissan lada
+                     <div class="animatios-strinh__square"></div>
+                     volkswagen renault skoda
+                     <div class="animatios-strinh__square"></div>
+                  </div>
+                  <div class="animatios-strinh__items">
+                     lutor
+                     <div class="animatios-strinh__square"></div>
+                     авто шторки
+                     <div class="animatios-strinh__square"></div>
+                     на любые марки и модели авто
+                     <div class="animatios-strinh__square"></div>
+                     toyta lexus mercedesBenz
+                     <div class="animatios-strinh__square"></div>
+                     bmw audi kia hyundai chevralet
+                     <div class="animatios-strinh__square"></div>
+                     honda mitsubishi nissan lada
+                     <div class="animatios-strinh__square"></div>
+                     volkswagen renault skoda
+                     <div class="animatios-strinh__square"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__wrapper">
+               <div class="footer__box">
+                  <div class="footer__contacts">
+                     <a href="https://wa.me/+77056260606">
+                        <img src="./img/icons/logoWa.png" alt="" />
+                     </a>
+                     <a href="https://www.instagram.com/lutor.kz?igsh=N3F3dmhyeTB5YWpn">
+                        <img src="./img/icons/logoInst.png" alt="" />
+                     </a>
+                  </div>
+                  <a href="tel:+77056260606">
+                     <div class="footer__call-btn">
+                        <button>ПОЗВОНИТЬ</button>
+                     </div></a
+                  >
+                  <div class="footer__addres">
+                     <p>г.Актау, 12а мкрн., ТД “АВТОДОМ” , бутик №64</p>
+
+                     <p>
+                        ⁠г. Алматы, ТД “БАКОРДА CITY” по Рыскулова, <br />
+                        0-этаж, 0-ряд, 1-2 бутик.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <div class="black-window"></div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script type="module" src="js/payment-form.js"></script>
+      <script type="module" src="./js/main.js"></script>
+      <script src="./js/slick.js"></script>
+   </body>
+</html>
