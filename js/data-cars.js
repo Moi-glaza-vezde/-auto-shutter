@@ -4,16 +4,19 @@ export const cars = [
       {
          name: 'toyta',
          id: 1,
-         model: 'Land Cruiser 95',
-         year: '1990-1997',
+         model: 'Land Cruiser 200',
+         year: '2008-2021',
          price: 12000,
+         banner: './img/baner/t1.jpg',
       },
+
       {
          name: 'toyta',
          id: 2,
          model: 'Land Cruiser 100-105 (Lx470)',
          year: '1997-2007',
          price: 12000,
+         banner: './img/baner/t2.jpg',
       },
       {
          name: 'toyta',
@@ -21,6 +24,7 @@ export const cars = [
          model: 'PRADO 120 (GX470)',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -28,13 +32,15 @@ export const cars = [
          model: 'PRADO 150 (GX460)',
          year: '2009-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
          id: 5,
-         model: 'Land Cruiser 200',
-         year: '2008-2021',
+         model: 'Land Cruiser 95',
+         year: '1990-1997',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -42,6 +48,7 @@ export const cars = [
          model: 'Land Cruiser 300',
          year: '2021-',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -49,6 +56,7 @@ export const cars = [
          model: 'Camry 70-75',
          year: '2017-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -56,6 +64,7 @@ export const cars = [
          model: 'Camry 55 Американец',
          year: '2014-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -63,6 +72,7 @@ export const cars = [
          model: 'Camry 50-55',
          year: '2011-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -70,6 +80,7 @@ export const cars = [
          model: 'Camry 40-45',
          year: '2006-2011',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -77,6 +88,7 @@ export const cars = [
          model: 'Camry 30-35',
          year: '2001-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -84,6 +96,7 @@ export const cars = [
          model: 'Camry 20-25',
          year: '1994-2001',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -91,6 +104,7 @@ export const cars = [
          model: 'Camry 10-15',
          year: '1991-1996',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -98,6 +112,7 @@ export const cars = [
          model: 'HILUX',
          year: '2004-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -105,6 +120,7 @@ export const cars = [
          model: 'Fortuner',
          year: '2004-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -112,6 +128,7 @@ export const cars = [
          model: 'HILUX New',
          year: '2015-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -119,6 +136,7 @@ export const cars = [
          model: 'Fortuner New',
          year: '2015-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -126,6 +144,7 @@ export const cars = [
          model: 'AVALON 05',
          year: '2005-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -133,6 +152,7 @@ export const cars = [
          model: 'T.AVALON 12',
          year: '2012-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -140,6 +160,7 @@ export const cars = [
          model: 'Avensis 03',
          year: '2003-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -147,6 +168,7 @@ export const cars = [
          model: 'Avensis 09',
          year: '2009-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -154,6 +176,7 @@ export const cars = [
          model: 'ALPHARD 02',
          year: '2002-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -161,6 +184,7 @@ export const cars = [
          model: 'ALPHARD 2008',
          year: '2008-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -168,6 +192,7 @@ export const cars = [
          model: 'ALPHARD 2022',
          year: '2016-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -175,6 +200,7 @@ export const cars = [
          model: 'Highlander',
          year: '2001-2007',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -182,6 +208,7 @@ export const cars = [
          model: 'Highlander',
          year: '2007-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          //вопросик
@@ -190,6 +217,7 @@ export const cars = [
          model: 'Venza',
          year: '2008-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -197,6 +225,7 @@ export const cars = [
          model: 'Highlander',
          year: '2013-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -204,6 +233,7 @@ export const cars = [
          model: 'Kluger',
          year: '2013-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -211,6 +241,7 @@ export const cars = [
          model: 'Highlander 20',
          year: '2020-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -218,6 +249,7 @@ export const cars = [
          model: '4Runner',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -225,6 +257,7 @@ export const cars = [
          model: '4Runner',
          year: '2009-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -232,6 +265,7 @@ export const cars = [
          model: 'RAV-4',
          year: '2005-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -239,6 +273,7 @@ export const cars = [
          model: 'RAV-4',
          year: '2013-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -246,6 +281,7 @@ export const cars = [
          model: 'RAV-4',
          year: '2018-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -253,6 +289,7 @@ export const cars = [
          model: 'COROLLA E120',
          year: '2000-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -260,6 +297,7 @@ export const cars = [
          model: 'COROLLA E150',
          year: '2006-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -267,6 +305,7 @@ export const cars = [
          model: 'COROLLA E160',
          year: '2013-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -274,6 +313,7 @@ export const cars = [
          model: 'COROLLA E170',
          year: '2013-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -281,6 +321,7 @@ export const cars = [
          model: 'COROLLA Е210 ',
          year: '2018-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -288,6 +329,7 @@ export const cars = [
          model: 'SIENNA 03',
          year: '2003-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -295,6 +337,7 @@ export const cars = [
          model: 'SIENNA 10',
          year: '2010-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -302,6 +345,7 @@ export const cars = [
          model: 'Ipsum',
          year: '2001-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -309,6 +353,7 @@ export const cars = [
          model: 'Fj Cruiser ',
          year: '2006-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -316,6 +361,7 @@ export const cars = [
          model: 'hiace',
          year: '2004-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -323,6 +369,7 @@ export const cars = [
          model: 'hiace',
          year: '2019-2022',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -330,6 +377,7 @@ export const cars = [
          model: 'CARINA E',
          year: '1992-1998',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -337,6 +385,7 @@ export const cars = [
          model: ' CORONA ',
          year: '1992-1998',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -344,6 +393,7 @@ export const cars = [
          model: 'Windom XV30 / ES300-330',
          year: '2001-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -351,6 +401,7 @@ export const cars = [
          model: 'Estima',
          year: '2001-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -358,6 +409,7 @@ export const cars = [
          model: 'Estima XR50 ',
          year: '2006-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -365,6 +417,7 @@ export const cars = [
          model: 'Tundra',
          year: '2007-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -372,6 +425,7 @@ export const cars = [
          model: 'Tacoma',
          year: '2005-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'toyta',
@@ -379,6 +433,87 @@ export const cars = [
          model: 'SELSIOR',
          year: '2000-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 55,
+         model: 'Windom XV20',
+         year: '2001-2006',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 56,
+         model: 'Mark 2 (90)',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 57,
+         model: 'Mark 2 (100)',
+         year: '1996-2000',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 58,
+         model: 'Mark 2 (110)',
+         year: '2000-2007',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 59,
+         model: 'MAJESTA 186',
+         year: '2004-2008',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 60,
+         model: 'Matrix',
+         year: '2002-2014',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 61,
+         model: 'CROWN',
+         year: '2008-2012',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 62,
+         model: 'CROWN  retro перед и зад двери',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 63,
+         model: 'PRIUS 20',
+         year: '2003-2011',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'toyta',
+         id: 64,
+         model: 'VERSO',
+         year: '2009-2018',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       // {
@@ -397,6 +532,7 @@ export const cars = [
          model: 'LX570',
          year: '2007-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -404,6 +540,7 @@ export const cars = [
          model: 'es300-330 / WINDOM XV30',
          year: '2001-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -411,6 +548,7 @@ export const cars = [
          model: 'LS430',
          year: '2000-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -418,6 +556,7 @@ export const cars = [
          model: 'es350/gs',
          year: '2006-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -425,6 +564,7 @@ export const cars = [
          model: 'es 12-18',
          year: '2012-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -432,6 +572,7 @@ export const cars = [
          model: 'es 19-22',
          year: '2019-2022',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -439,6 +580,7 @@ export const cars = [
          model: 'gs300 (160)',
          year: '1997-2005',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -446,6 +588,7 @@ export const cars = [
          model: 'gs300-350 (190)',
          year: '2005-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -453,6 +596,7 @@ export const cars = [
          model: 'gs 12-',
          year: '2012+/ES350 2006+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -467,6 +611,7 @@ export const cars = [
          model: 'IS 13-16',
          year: '2013-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -474,6 +619,7 @@ export const cars = [
          model: 'NX200',
          year: '2014-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -481,6 +627,7 @@ export const cars = [
          model: 'NX300',
          year: '2014-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -488,6 +635,7 @@ export const cars = [
          model: 'RX300 ',
          year: '2014-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -495,6 +643,7 @@ export const cars = [
          model: 'RX 330',
          year: '2014-2022',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -502,6 +651,7 @@ export const cars = [
          model: 'RX 350',
          year: '2014-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lexus',
@@ -509,6 +659,23 @@ export const cars = [
          model: 'LS460',
          year: '2006-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'lexus',
+         id: 18,
+         model: 'CT200H',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'lexus',
+         id: 19,
+         model: 'RX 300-350',
+         year: '2016-2022',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //mb
@@ -516,16 +683,19 @@ export const cars = [
       {
          name: 'mercedesbenz',
          id: 1,
-         model: 'W 124 (E-class)',
-         year: '1984-1995',
+         model: 'Gelendewagen (G-class)',
+         year: '1990-2022',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
+
       {
          name: 'mercedesbenz',
          id: 2,
          model: 'W 140 (S-class)',
          year: '1991-1998',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -533,6 +703,7 @@ export const cars = [
          model: 'W 210 (E-class)',
          year: '1995-2002',
          price: 2000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -540,6 +711,7 @@ export const cars = [
          model: 'W 210 задние даери',
          year: '1995-2002',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -547,6 +719,7 @@ export const cars = [
          model: 'W 211 (E-class)',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -554,6 +727,7 @@ export const cars = [
          model: 'W 212 (E-class)',
          year: '2009-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -561,6 +735,7 @@ export const cars = [
          model: 'W 220 (S-class)',
          year: '1998-2005',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -568,6 +743,7 @@ export const cars = [
          model: 'W 221 (S-class)',
          year: '2005-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -575,6 +751,7 @@ export const cars = [
          model: 'W 222 (S-class)',
          year: '2013-',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -582,6 +759,7 @@ export const cars = [
          model: 'W 202 (C-class)',
          year: '1993-2001',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -589,6 +767,7 @@ export const cars = [
          model: 'W 203 (C-class)',
          year: '2000-2007',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -596,6 +775,7 @@ export const cars = [
          model: 'W 204 (C-class)',
          year: '2004-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -603,13 +783,15 @@ export const cars = [
          model: 'GLS',
          year: '2006-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
          id: 14,
-         model: 'Gelendewagen (G-class)',
-         year: '1990-2022',
+         model: 'W 124 (E-class)',
+         year: '1984-1995',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mercedesbenz',
@@ -617,6 +799,39 @@ export const cars = [
          model: 'A170',
          year: '2004-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'mercedesbenz',
+         id: 16,
+         model: 'W 140  (S-class) задние двери',
+         year: '2004-2008',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'mercedesbenz',
+         id: 17,
+         model: 'W 220 задние двери',
+         year: '2004-2008',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'mercedesbenz',
+         id: 18,
+         model: 'W205',
+         year: '2014-2018',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'mercedesbenz',
+         id: 19,
+         model: 'CLS63',
+         year: '2014-2017',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //bmw
@@ -627,6 +842,7 @@ export const cars = [
          model: 'X5 E53',
          year: '1996-2006',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -634,6 +850,7 @@ export const cars = [
          model: 'X5 Е70',
          year: '2006-2013',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -641,6 +858,7 @@ export const cars = [
          model: 'E34',
          year: '1992-1996',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -648,6 +866,7 @@ export const cars = [
          model: 'E38',
          year: '1994-2001',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -655,6 +874,7 @@ export const cars = [
          model: 'E39',
          year: '1995-2003',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -662,6 +882,7 @@ export const cars = [
          model: 'E46',
          year: '1998-2007',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -669,6 +890,7 @@ export const cars = [
          model: 'E60',
          year: '2002-2010',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -676,6 +898,7 @@ export const cars = [
          model: 'E61',
          year: '2002-2010',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -683,6 +906,7 @@ export const cars = [
          model: 'E65',
          year: '2001-2008',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -690,6 +914,7 @@ export const cars = [
          model: 'E66',
          year: '2001-2008',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -697,6 +922,7 @@ export const cars = [
          model: 'F30',
          year: '2012-2016',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -704,6 +930,7 @@ export const cars = [
          model: 'E34 задние двери',
          year: '1992-1996',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
       {
          name: 'bmw',
@@ -711,6 +938,63 @@ export const cars = [
          model: 'i840',
          year: '2018-2023',
          price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 13,
+         model: 'X7',
+         year: '2018-2023',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 14,
+         model: 'E34 задние двери',
+         year: '1992-1996',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 15,
+         model: 'E38 задние двери',
+         year: '1994-2001',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 16,
+         model: 'F10-11',
+         year: '2010-2017',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 17,
+         model: 'F30',
+         year: '2012-2016',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 18,
+         model: 'F32 КУПЕ',
+         year: '2012-2016',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
+      },
+      {
+         name: 'bmw',
+         id: 19,
+         model: 'G30',
+         year: '2017-2023',
+         price: 12000,
+         banner: './img/baner/msd1.jpg',
       },
    ],
    //audi
@@ -721,6 +1005,7 @@ export const cars = [
          model: '100',
          year: '1991-1997',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'audi',
@@ -728,6 +1013,7 @@ export const cars = [
          model: 'A6 (C4)',
          year: '1991-1997',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'audi',
@@ -735,6 +1021,7 @@ export const cars = [
          model: 'A8',
          year: '1994-2002',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'audi',
@@ -742,6 +1029,7 @@ export const cars = [
          model: 'Q7',
          year: '2006-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'audi',
@@ -749,6 +1037,7 @@ export const cars = [
          model: 'A6 (C5)',
          year: '1997-2004',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'audi',
@@ -756,6 +1045,15 @@ export const cars = [
          model: 'A6 (C6)',
          year: '2005-2011',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'audi',
+         id: 7,
+         model: 'A8',
+         year: '2009-2017',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
       // {
       //    name: 'audi',
@@ -773,6 +1071,7 @@ export const cars = [
          model: 'K7',
          year: '2016-2022',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -780,6 +1079,7 @@ export const cars = [
          model: 'K5',
          year: '2020-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -787,6 +1087,7 @@ export const cars = [
          model: 'RIO',
          year: '2011-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -794,6 +1095,7 @@ export const cars = [
          model: 'RIO NEW',
          year: '2017-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -801,6 +1103,7 @@ export const cars = [
          model: 'SPORTAGE ',
          year: '2010-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -808,6 +1111,7 @@ export const cars = [
          model: 'SPORTAGE',
          year: '2016-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -815,6 +1119,7 @@ export const cars = [
          model: 'SPORTAGE NEW',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -822,6 +1127,7 @@ export const cars = [
          model: 'CADENZA',
          year: '2009-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -829,6 +1135,7 @@ export const cars = [
          model: 'SORENTO PRIME',
          year: '2014-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -836,6 +1143,7 @@ export const cars = [
          model: 'SORENTO',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -843,6 +1151,7 @@ export const cars = [
          model: 'SORENTO',
          year: '2009-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -850,6 +1159,7 @@ export const cars = [
          model: 'SORENTO ',
          year: '2020-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -857,6 +1167,7 @@ export const cars = [
          model: 'SOUL',
          year: '2014-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -864,6 +1175,7 @@ export const cars = [
          model: 'SOUL',
          year: '2020-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -871,6 +1183,7 @@ export const cars = [
          model: 'CEED',
          year: '2012-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -878,6 +1191,7 @@ export const cars = [
          model: 'CERATO II',
          year: '2008-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -885,6 +1199,7 @@ export const cars = [
          model: 'CERATO III',
          year: '2013-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -892,6 +1207,7 @@ export const cars = [
          model: 'CERATO IV',
          year: '2018-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -899,6 +1215,7 @@ export const cars = [
          model: 'OPTIMA',
          year: '2010-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -906,6 +1223,7 @@ export const cars = [
          model: 'OPTIMA',
          year: '2016-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -913,6 +1231,7 @@ export const cars = [
          model: 'MOHAVE',
          year: '2008+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'kia',
@@ -920,6 +1239,39 @@ export const cars = [
          model: 'K8',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'kia',
+         id: 23,
+         model: 'K9/QUARIS',
+         year: '2014-2018',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'kia',
+         id: 24,
+         model: 'rio',
+         year: '2005-2010',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'kia',
+         id: 25,
+         model: 'PEGAS',
+         year: '2018-2023',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'kia',
+         id: 26,
+         model: 'CEED',
+         year: '2018-2023',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //hendai
@@ -927,16 +1279,19 @@ export const cars = [
       {
          name: 'hyundai',
          id: 1,
-         model: 'ACCENT',
-         year: '2001-2010',
+         model: 'Sonata',
+         year: '2019-2023',
          price: 12000,
+         banner: './img/baner/hy1.jpg',
       },
+
       {
          name: 'hyundai',
          id: 2,
          model: 'ACCENT',
          year: '2010-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -944,6 +1299,7 @@ export const cars = [
          model: 'Accent NEW',
          year: '2017-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -951,6 +1307,7 @@ export const cars = [
          model: 'Elantra',
          year: '2010-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -958,6 +1315,7 @@ export const cars = [
          model: 'Avante',
          year: '2010-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -965,6 +1323,7 @@ export const cars = [
          model: 'Elantra',
          year: '2016-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -972,6 +1331,7 @@ export const cars = [
          model: 'Elantra',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -979,6 +1339,7 @@ export const cars = [
          model: 'Grandeur',
          year: '2005-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -986,6 +1347,7 @@ export const cars = [
          model: 'GETZ',
          year: '2002-2011',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -993,6 +1355,7 @@ export const cars = [
          model: 'Santa-fe ',
          year: '2006-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1000,6 +1363,7 @@ export const cars = [
          model: 'Santa-fe',
          year: '2012-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1007,6 +1371,7 @@ export const cars = [
          model: 'Santa-fe',
          year: '2019-2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1014,6 +1379,7 @@ export const cars = [
          model: 'Palisade',
          year: '2018-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1021,6 +1387,7 @@ export const cars = [
          model: 'Tucson',
          year: '2004-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1028,6 +1395,7 @@ export const cars = [
          model: 'TUCSON-IX35',
          year: '2009-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1035,6 +1403,7 @@ export const cars = [
          model: 'Tucson',
          year: '2015-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1042,6 +1411,7 @@ export const cars = [
          model: 'Tucson  ',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1049,6 +1419,7 @@ export const cars = [
          model: 'Sonata',
          year: '2001-2004',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1056,6 +1427,7 @@ export const cars = [
          model: 'Sonata',
          year: '2004-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1063,6 +1435,7 @@ export const cars = [
          model: 'Sonata',
          year: '2009-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1070,13 +1443,15 @@ export const cars = [
          model: 'Sonata',
          year: '2014-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
          id: 22,
-         model: 'Sonata',
-         year: '2019-2023',
+         model: 'ACCENT',
+         year: '2001-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1084,6 +1459,7 @@ export const cars = [
          model: 'I40',
          year: '2011-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1091,6 +1467,7 @@ export const cars = [
          model: 'CRETA',
          year: '2015-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1098,6 +1475,7 @@ export const cars = [
          model: 'Creta ',
          year: '2020-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1105,6 +1483,7 @@ export const cars = [
          model: 'H1 Starex',
          year: '1997-2004',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1112,6 +1491,7 @@ export const cars = [
          model: 'H1 Starex',
          year: '1996-н.в.',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'hyundai',
@@ -1119,6 +1499,55 @@ export const cars = [
          model: 'Staria',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'hyundai',
+         id: 28,
+         model: 'BAYON перед и зад дверь и окошко',
+         year: '2023+',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'hyundai',
+         id: 29,
+         model: 'Elantra/Avante',
+         year: '2006-2010',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'hyundai',
+         id: 30,
+         model: 'Grandeur',
+         year: '2017-2022',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'hyundai',
+         id: 31,
+         model: 'I30',
+         year: '2020-2024',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'hyundai',
+         id: 32,
+         model: 'I40 задние двери',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'hyundai',
+         id: 33,
+         model: 'Venue',
+         year: '2019-2023',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //honda
@@ -1129,6 +1558,7 @@ export const cars = [
          model: 'ODYSSEY',
          year: '2005-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'honda',
@@ -1136,6 +1566,7 @@ export const cars = [
          model: 'ODYSSEY',
          year: '2011+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'honda',
@@ -1143,6 +1574,7 @@ export const cars = [
          model: 'ELYSION',
          year: '2004+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'honda',
@@ -1150,6 +1582,15 @@ export const cars = [
          model: 'CRV',
          year: '1995-2001',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'honda',
+         id: 5,
+         model: 'Accord',
+         year: '2007-2011',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //mitsubishi
@@ -1160,6 +1601,7 @@ export const cars = [
          model: 'Delica',
          year: '1994-2005',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1167,6 +1609,7 @@ export const cars = [
          model: 'Pajero 2',
          year: '1991-2000',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1174,6 +1617,7 @@ export const cars = [
          model: 'Pajero 3',
          year: '1999-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1181,6 +1625,7 @@ export const cars = [
          model: 'Pajero sport',
          year: '2008-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1188,6 +1633,7 @@ export const cars = [
          model: 'Pajero sport',
          year: '2019-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1195,6 +1641,7 @@ export const cars = [
          model: 'Montero sport',
          year: '2019-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1202,6 +1649,7 @@ export const cars = [
          model: 'Montero sport',
          year: '1997-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1209,6 +1657,7 @@ export const cars = [
          model: 'Nativa',
          year: '1997-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1216,6 +1665,7 @@ export const cars = [
          model: 'L200',
          year: '2019-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1223,6 +1673,7 @@ export const cars = [
          model: 'Outlander',
          year: '2005-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1230,6 +1681,7 @@ export const cars = [
          model: 'Outlander2',
          year: '2013-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1237,6 +1689,7 @@ export const cars = [
          model: 'ASX',
          year: '2010-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1244,6 +1697,7 @@ export const cars = [
          model: 'Lancer',
          year: '2007-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
@@ -1252,6 +1706,7 @@ export const cars = [
          model: 'Pajero 4',
          year: '2006-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
@@ -1259,13 +1714,31 @@ export const cars = [
          model: 'L200',
          year: '1997-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mitsubishi',
-         id: 12,
+         id: 16,
          model: 'Outlander sport',
          year: '2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'mitsubishi',
+         id: 17,
+         model: 'Delica кирпич',
+         year: '1986-1993',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'mitsubishi',
+         id: 18,
+         model: 'Lancer X',
+         year: '2007-2015',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //nissan
@@ -1276,6 +1749,7 @@ export const cars = [
          model: 'Teana j32',
          year: '2008-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1283,6 +1757,7 @@ export const cars = [
          model: 'Teana j31',
          year: '2003-2008',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1290,6 +1765,7 @@ export const cars = [
          model: 'Teana j33',
          year: '2014+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1297,6 +1773,7 @@ export const cars = [
          model: 'TIDA',
          year: '2004-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1304,6 +1781,7 @@ export const cars = [
          model: 'maxima A32',
          year: '1994-2000',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1311,6 +1789,7 @@ export const cars = [
          model: 'Cefiro A32',
          year: '1994-1998',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1318,6 +1797,7 @@ export const cars = [
          model: 'Cefiro A33',
          year: '1998-2003',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       // {
       //    name: 'nissan',
@@ -1332,6 +1812,7 @@ export const cars = [
          model: 'maxima A33',
          year: '1999-2003',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1339,6 +1820,7 @@ export const cars = [
          model: 'almera classic ',
          year: '2006-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1346,6 +1828,7 @@ export const cars = [
          model: 'Almera G15',
          year: '2012-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1353,6 +1836,7 @@ export const cars = [
          model: 'Patrol Y61',
          year: '1997-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1360,6 +1844,7 @@ export const cars = [
          model: 'Patrol Y62',
          year: '2010-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
@@ -1368,6 +1853,7 @@ export const cars = [
          model: 'INFINITY QX 56',
          year: '010-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1375,6 +1861,7 @@ export const cars = [
          model: 'INFINITY QX 80',
          year: '2013-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1382,6 +1869,7 @@ export const cars = [
          model: 'ARMADA',
          year: '2003-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1389,6 +1877,7 @@ export const cars = [
          model: 'INFINITY   QX56',
          year: '2004-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1396,6 +1885,7 @@ export const cars = [
          model: 'Pathfinder R51',
          year: '2005-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1403,6 +1893,7 @@ export const cars = [
          model: 'Qashqai 21',
          year: '2021-',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1410,6 +1901,7 @@ export const cars = [
          model: 'QUEST',
          year: '2011-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1417,6 +1909,7 @@ export const cars = [
          model: 'Sentra',
          year: '2014-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1424,6 +1917,7 @@ export const cars = [
          model: 'X-Terra',
          year: '2005-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1431,6 +1925,7 @@ export const cars = [
          model: 'X-Trail',
          year: '2007-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1438,6 +1933,7 @@ export const cars = [
          model: 'INFINITY   FX35  45 (S50)',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'nissan',
@@ -1445,6 +1941,23 @@ export const cars = [
          model: 'Infiniti I30',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'nissan',
+         id: 25,
+         model: 'ALMERA',
+         year: '1995-2000',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'nissan',
+         id: 26,
+         model: 'FX35',
+         year: '2008-2012',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //vwgn
@@ -1455,6 +1968,7 @@ export const cars = [
          model: 'POLO',
          year: '2010-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1462,6 +1976,7 @@ export const cars = [
          model: 'POLO NEW',
          year: '2019-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1469,6 +1984,7 @@ export const cars = [
          model: 'PASSAT B3',
          year: '1988-1996',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1476,6 +1992,7 @@ export const cars = [
          model: 'PASSAT B5',
          year: '1996-2005',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1483,6 +2000,7 @@ export const cars = [
          model: 'PASSAT B6',
          year: '2005-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1490,6 +2008,7 @@ export const cars = [
          model: 'TOUAREG',
          year: '2002-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1497,6 +2016,7 @@ export const cars = [
          model: 'PORSCHE CAYENNE',
          year: '2002-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1504,6 +2024,7 @@ export const cars = [
          model: 'VW PASSAT B7 USA',
          year: '2011-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1511,6 +2032,7 @@ export const cars = [
          model: ' GOLF 3',
          year: '1991-2002',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'volkswagen',
@@ -1518,6 +2040,7 @@ export const cars = [
          model: ' GOLF 4',
          year: '1997-2010',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
@@ -1526,6 +2049,32 @@ export const cars = [
          model: 'PASSAT B4',
          year: '1988-1996',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+
+      {
+         name: 'volkswagen',
+         id: 12,
+         model: 'PASSAT B7 USA',
+         year: '2011-2019',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'volkswagen',
+         id: 13,
+         model: 'SHARAN / FORD GALAXY',
+         year: '1996',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'volkswagen',
+         id: 14,
+         model: ' GOLF 6',
+         year: '2008-2014',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //renault
@@ -1536,6 +2085,7 @@ export const cars = [
          model: 'Duster',
          year: '2009-',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'renault',
@@ -1543,6 +2093,15 @@ export const cars = [
          model: 'Logan',
          year: '2012-',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'renault',
+         id: 3,
+         model: 'ARKANA',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //skoda
@@ -1553,6 +2112,7 @@ export const cars = [
          model: 'RAPID',
          year: '2012-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'skoda',
@@ -1560,6 +2120,7 @@ export const cars = [
          model: 'OCTAVIA  A5',
          year: '2004-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'skoda',
@@ -1567,6 +2128,7 @@ export const cars = [
          model: 'OCTAVIA  A7',
          year: '2013-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'skoda',
@@ -1574,6 +2136,7 @@ export const cars = [
          model: 'SUPERB',
          year: '2008-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //CHEVRALET
@@ -1584,6 +2147,7 @@ export const cars = [
          model: 'Cruze',
          year: '2008-2015',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1591,6 +2155,7 @@ export const cars = [
          model: 'TAHOE',
          year: '2006-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1598,6 +2163,7 @@ export const cars = [
          model: 'EQUINOX',
          year: '2021',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1605,6 +2171,7 @@ export const cars = [
          model: 'ONIX',
          year: '2019-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1612,6 +2179,7 @@ export const cars = [
          model: 'Niva',
          year: '2002-2009',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1619,13 +2187,15 @@ export const cars = [
          model: 'Captiva',
          year: '2006-',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
          id: 7,
          model: 'Aveo T250',
-         year: '.....',
+         year: '',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1633,6 +2203,7 @@ export const cars = [
          model: 'Nexia Ravon R3',
          year: '2020-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1640,6 +2211,7 @@ export const cars = [
          model: 'Malibu',
          year: '2011-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1647,6 +2219,7 @@ export const cars = [
          model: 'Cobalt',
          year: '2012-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1654,13 +2227,15 @@ export const cars = [
          model: 'RAVON R4',
          year: '2012-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
          id: 12,
          model: 'TAHOE',
-         year: '2020-2023',
+         year: '2014-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'chevralet',
@@ -1668,6 +2243,15 @@ export const cars = [
          model: 'Chevralet Suburban',
          year: '2007-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'chevralet',
+         id: 13,
+         model: 'MONZA',
+         year: '2019-',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //lada
@@ -1675,16 +2259,19 @@ export const cars = [
       {
          name: 'lada',
          id: 1,
-         model: '2114-2115',
-         year: '2001-2013',
+         model: 'priora',
+         year: '2007+',
          price: 12000,
+         banner: './img/baner/ru1.jpg',
       },
+
       {
          name: 'lada',
          id: 2,
          model: '2107',
          year: '1982-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1692,6 +2279,7 @@ export const cars = [
          model: 'Largus',
          year: '2012-',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1699,6 +2287,7 @@ export const cars = [
          model: 'Granta',
          year: '2011-2017',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1706,6 +2295,7 @@ export const cars = [
          model: 'Калина',
          year: '2004-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1713,6 +2303,7 @@ export const cars = [
          model: 'Нива',
          year: '1977-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1720,6 +2311,7 @@ export const cars = [
          model: 'Нива Урбан',
          year: '1977-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1727,6 +2319,7 @@ export const cars = [
          model: 'Vesta',
          year: '2015+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1734,6 +2327,7 @@ export const cars = [
          model: 'X-RAY',
          year: '2015+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1741,6 +2335,7 @@ export const cars = [
          model: 'Газель Бизнес',
          year: '1994-2013',
          price: 14000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1748,6 +2343,7 @@ export const cars = [
          model: 'Газель NEXT',
          year: '2013-н.в.',
          price: 14000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1755,6 +2351,7 @@ export const cars = [
          model: 'УАЗ буханка',
          year: '1985+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
@@ -1762,20 +2359,23 @@ export const cars = [
          model: 'УАЗ ПАТРИОТ',
          year: '2012-2022',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
          id: 14,
-         model: 'priora',
-         year: '2007+',
+         model: '2114-2115',
+         year: '2001-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'lada',
          id: 15,
          model: 'КАМАЗ',
-         year: '.....',
+         year: '',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
 
@@ -1787,6 +2387,7 @@ export const cars = [
          model: 'OPEL ZAFIRA A',
          year: '1999-2005',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'opel',
@@ -1794,6 +2395,7 @@ export const cars = [
          model: 'OPEL ZAFIRA B',
          year: '2005-2011',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
@@ -1802,6 +2404,7 @@ export const cars = [
          model: 'OPEL ASTRA G',
          year: '1998-2004',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'opel',
@@ -1809,6 +2412,7 @@ export const cars = [
          model: 'Opel Vectra',
          year: '1988-1995',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'opel',
@@ -1816,6 +2420,7 @@ export const cars = [
          model: 'Opel Vectra',
          year: '1995-2002',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //subaru
@@ -1826,6 +2431,7 @@ export const cars = [
          model: 'Subaru Outback 09',
          year: '2009-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'subaru',
@@ -1833,6 +2439,7 @@ export const cars = [
          model: 'Subaru Outback 15',
          year: '2015-2020',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'subaru',
@@ -1840,6 +2447,7 @@ export const cars = [
          model: 'Subaru Tribecca	',
          year: '2005-2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'subaru',
@@ -1847,6 +2455,7 @@ export const cars = [
          model: 'Subaru forester 08',
          year: '	2008-2012',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'subaru',
@@ -1854,6 +2463,7 @@ export const cars = [
          model: 'Subaru forester 12',
          year: '2012-2018',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'subaru',
@@ -1861,6 +2471,7 @@ export const cars = [
          model: 'Subaru forester 18',
          year: '2018+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'subaru',
@@ -1868,6 +2479,7 @@ export const cars = [
          model: 'Legacy',
          year: '2014',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //DAEWOO
@@ -1878,6 +2490,7 @@ export const cars = [
          model: 'Nexia 1-2',
          year: '1994-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'daewoo',
@@ -1885,6 +2498,7 @@ export const cars = [
          model: 'Gentra',
          year: '2013-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'daewoo',
@@ -1892,6 +2506,7 @@ export const cars = [
          model: 'matiz',
          year: '1998-2005',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //mazda
@@ -1902,6 +2517,7 @@ export const cars = [
          model: 'Mazda MPV',
          year: '2000-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mazda',
@@ -1909,6 +2525,7 @@ export const cars = [
          model: 'MAZDA 6',
          year: '2002-2007',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mazda',
@@ -1916,6 +2533,7 @@ export const cars = [
          model: 'MAZDA 626 cronos',
          year: '1991-1997',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mazda',
@@ -1923,6 +2541,7 @@ export const cars = [
          model: 'MAZDA 626 ',
          year: '1987-1997',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'mazda',
@@ -1930,6 +2549,7 @@ export const cars = [
          model: 'MAZDA птичка',
          year: '1997-2002',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //китайцы
@@ -1940,6 +2560,7 @@ export const cars = [
          model: 'EXEED LX',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'Chinese',
@@ -1947,6 +2568,7 @@ export const cars = [
          model: 'EXEED VX',
          year: '2021-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'Chinese',
@@ -1954,6 +2576,7 @@ export const cars = [
          model: 'Chery 7-8 PRO',
          year: '2019-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'Chinese',
@@ -1961,6 +2584,7 @@ export const cars = [
          model: 'Jac S5',
          year: '2013+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'Chinese',
@@ -1968,14 +2592,16 @@ export const cars = [
          model: 'LIFAN х60',
          year: '2012-2016',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
          name: 'Chinese',
          id: 6,
          model: 'GREAT WALL',
-         year: '.....',
+         year: '',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
@@ -1984,6 +2610,7 @@ export const cars = [
          model: 'Geely Emgrand X',
          year: '2011-2019',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'Chinese',
@@ -1991,6 +2618,159 @@ export const cars = [
          model: 'Jetour X70',
          year: '2018-2023',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 9,
+         model: 'AVATR',
+         year: '2023+',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 10,
+         model: 'OMODA S5',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 11,
+         model: 'OMODA C5',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 12,
+         model: 'CHANGAN CS55+',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 13,
+         model: 'Chery 2 PRO',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 13,
+         model: 'Chery 4 PRO',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 14,
+         model: 'CHANGAN UNI-V',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 15,
+         model: 'HAVAL JOLION',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 16,
+         model: 'HAVAL H6',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 17,
+         model: 'HAVAL DARGO',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 18,
+         model: 'TANK 500',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 19,
+         model: 'TANK 300',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 20,
+         model: 'Jac J7',
+         year: '2020-',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 21,
+         model: 'JAC JS6',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 22,
+         model: 'JAC S3',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 23,
+         model: 'Li 7 ЗАДНИЕ ДВЕРИ',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 24,
+         model: 'GEELY MONJARO',
+         year: '2022',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 25,
+         model: 'Geely Emgrand',
+         year: '2023',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Chinese',
+         id: 26,
+         model: 'GEELY OKAVANGO',
+         year: '',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
    ],
    //Americans
@@ -2001,6 +2781,7 @@ export const cars = [
          model: 'Cadillac Escalade',
          year: '2002-2006',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'Americans',
@@ -2008,6 +2789,7 @@ export const cars = [
          model: 'Cadillac Escalade',
          year: '2007-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       // {
@@ -2023,6 +2805,7 @@ export const cars = [
          model: 'GMC Yukon',
          year: '2007-2013',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
       {
          name: 'remAmericansain',
@@ -2030,14 +2813,58 @@ export const cars = [
          model: 'Cadillac Escalade ',
          year: '2015+',
          price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       {
          name: 'Americans',
          id: 5,
          model: 'Hammer H2',
-         year: '.....',
+         year: '',
          price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+
+      {
+         name: 'Americans',
+         id: 6,
+         model: 'ACURA MDX',
+         year: '2001-2006',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+
+      {
+         name: 'Americans',
+         id: 7,
+         model: 'LINCOLN MARK 8',
+         year: '1991',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Americans',
+         id: 8,
+         model: 'PEJO 301-302',
+         year: '1991',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Americans',
+         id: 9,
+         model: 'FORD F150',
+         year: '2008-2014',
+         price: 12000,
+         banner: './img/baner/all.jpg',
+      },
+      {
+         name: 'Americans',
+         id: 10,
+         model: 'FORD GALAXY',
+         year: '1995-',
+         price: 12000,
+         banner: './img/baner/all.jpg',
       },
 
       // {

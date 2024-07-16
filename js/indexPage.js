@@ -44,7 +44,7 @@ window.onload = function () {
       listCar.forEach((car) => {
          let html = `
 			<a href="#res">
-			<li data-name="${car.name}" data-id="${car.id}" class="catalog__model">${car.model} <br/>(${car.year})</li>
+			<li data-name="${car.name}" data-id="${car.id}" class="catalog__model">${car.model} <br/>${car.year}</li>
 			</a>
 		
 		`;
@@ -60,9 +60,8 @@ window.onload = function () {
 				<div  class="result__car">
 	
 				<div class="result__img">
-				<img src="./img/шторки/avtoshtorki_na_magni.png" alt="" />
-				<p class="result__name">"LUTOR"</p>
-				<p class="result__phone">8 (705) 626-06-06</p>
+				<img src="${car.banner}" alt="" />
+			
 				</div>
 				<div class="result__price"><p>Цена ${car.price} 	&#8376;</p></div>
 				<div class="result__model"><p>Модель ${car.model}</p></div>
@@ -75,6 +74,8 @@ window.onload = function () {
 				
 				`;
          resultContainer.insertAdjacentHTML('beforeend', htmlResult);
+         // <p class="result__name">"LUTOR"</p>
+         // <p class="result__phone">8 (705) 626-06-06</p>
       });
    }
 
@@ -209,7 +210,7 @@ window.onload = function () {
             const html = `
 					<div class="result__car">
 					<div class="result__img">
-					<img src="./img/шторки/avtoshtorki_na_magni.png" alt="" />
+					<img src="${filterCarItem.banner}" alt="" />
 					</div>
 					<div class="result__price"><p>Цена ${filterCarItem.price} 	&#8376;</p></div>
 					<div class="result__model"><p>Модель ${filterCarItem.model}</p></div>

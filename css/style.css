@@ -477,7 +477,7 @@ li {
   text-align: left;
   position: relative;
   font-weight: 400;
-  font-size: 35px; }
+  font-size: 30px; }
   @media (max-width: 1165px) {
     .catalog__list-title {
       font-size: 30px; } }
@@ -580,34 +580,22 @@ li {
     padding: 25px 10px 15px 10px;
     border-radius: 5px;
     background-color: #3a3a3a7a;
+    margin-left: 5px;
+    margin-right: 5px;
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
   .result__car:hover {
-    -webkit-box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
-    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 45px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+    -webkit-box-shadow: 0 0 2.5px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 22px #0000ff, 0 0 50px #0000ff, 0 0 75px #0000ff;
+    box-shadow: 0 0 2.5px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 22px #0000ff, 0 0 50px #0000ff, 0 0 75px #0000ff;
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
   .result__img {
-    position: relative;
     margin: 0 auto;
-    width: 220px;
-    height: 250px;
-    background-color: #3838f3; }
+    width: 220px; }
     .result__img img {
-      width: 220px;
-      height: 220px; }
-  .result__name {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 30px;
-    font-weight: 500; }
-  .result__phone {
-    text-align: end;
-    padding-right: 20px;
-    font-size: 20px; }
+      width: 220px; }
   .result__price {
     padding: 20px 0 0 20px;
     font-size: 25px;
